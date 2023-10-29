@@ -1,0 +1,134 @@
+#logo1{
+    height: 33px;
+    width: 268px;
+}
+ header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top:0;
+    height: 70px;
+ }
+ .dropmenu{
+    display: none;
+    position: absolute;
+    right: 220px;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0 2px 2px 2px rgb(239, 238, 238);
+ }
+ .menu{
+    display: flex;
+    list-style: none;
+ }
+ .menu-item{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ababab;
+ }
+ .menu-item:hover{
+    color: #00b39b;
+    cursor: pointer;
+ }
+ .menu-item:hover .dropmenu{
+    display: flex;
+    flex-direction: column;
+ }
+ .dropmenu-item{
+    padding: 6px;
+    color: #ababab;
+ }
+ .dropmenu-item:hover{
+    color: #00b39b;
+    background-color: aliceblue;
+ }
+ .introduction {
+    padding: 100px;
+    text-align: center;
+ }
+ .introduction h1 {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #00b39b;
+    font-size: 34px;
+ }
+.paragraphs {
+    display: flex;
+    justify-content: center;
+}
+.paragraphs p {
+    width: 35%;
+    text-align: left;
+   margin-left: 10px;
+}
+
+ .patients{
+   background-color:#00CCB1 ;
+ }
+ .doctors{
+   background-color: #3D83DF;
+ }
+.clinics{
+   background-color: #1B2734;
+}
+.block{
+   height: 300px;
+   width: 250px;
+   border-radius: 10px;
+   padding: 30px;
+   margin-left: 15px;
+}
+.block h2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 26px;
+   color: white;
+}
+.block p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   color: white;
+   font-weight: 50;
+}
+.patients select{
+   background-color: #00CCB1;
+}
+.doctors select {
+   background-color: #3D83DF;
+}
+.clinics select{
+   background-color: #1B2734;
+}
+.block select{
+   border: none;
+   color: white;
+   text-decoration: underline;
+   font-size: 19px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.block option {
+   color: black;
+   background-color: white;
+} 
+.blocks{
+   display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
